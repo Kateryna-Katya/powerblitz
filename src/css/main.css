@@ -1,0 +1,120 @@
+.home-section{
+    background-image: url("/img/hero/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+@keyframes pulse-animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.9;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.hero-btn.pulse {
+    animation: pulse-animation 2s infinite;
+    transition: transform 0.3s ease;
+    display: block;
+width: 238px;
+    height: 79px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.home-wrapper{
+margin-top: 40px;
+    backdrop-filter: blur(28px);
+        background: rgba(125, 97, 245, 0.8);
+        border-radius: 22px;
+            padding: 22px 12px;
+            width: 335px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+
+}
+.home-subtitle{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 22px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+}
+.home-big-text{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+        text-align: center;
+        color: #fff;
+}
+.home-text{
+font-size: 16px;
+    text-align: center;
+}
+.hero-fish{
+    position: absolute;
+    right: 16%;
+    bottom: 0;
+    z-index: 1;
+}
+.home-container{
+    padding-bottom: 177px;
+    position: relative;
+}
+.home-logo{
+    width: 273px;
+        height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+}
+@media only screen and (min-width: 1440px) {
+   .home-section{
+    background-image: url("/img/hero/desk.png");
+   }
+   .home-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 905px;
+        height: 603px;
+        padding: 22px;
+        margin-top: 0;
+}
+.home-subtitle{
+    font-size: 32px;
+}
+.home-big-text{
+    font-size: 22px;
+}
+.home-text{
+    font-size: 20px;
+}
+.hero-fish{
+    right: 0;
+}
+}
