@@ -368,3 +368,46 @@ font-size: 16px;
     margin-top: 22px;
   }
 }
+/* Luck as a Living System */
+.luck-section{
+    background-image: url("/img/luck/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.luck-wrapper{
+    backdrop-filter: blur(22px);
+    border-radius: 22px;
+        padding: 22px;
+        width: 335px;
+        background: rgba(125, 97, 245, 0.8);
+}
+.luck-title{
+    margin-bottom: 32px;
+}
+.luck-container{
+    padding-bottom: 322px;
+    position: relative;
+}
+.turtle{
+    position: absolute;
+    bottom: 0;
+}
+@media only screen and (min-width: 1440px) {
+    .luck-section{
+    background-image: url("/img/luck/desk.png");
+    }
+    .luck-container{
+        padding-top: 271px;
+        padding-bottom: 282px;
+    }
+    .luck-wrapper{
+        width: 962px;
+    }
+    .turtle{
+        right: 0;
+    }
+    .luck-title{
+        margin-bottom: 60px;
+    }
+}
