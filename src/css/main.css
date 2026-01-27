@@ -171,11 +171,11 @@ font-size: 16px;
 }
 .landscape-container{
     position: relative;
-    padding-bottom: 280px;
+    padding-bottom: 290px;
 }
 .snake{
     position: absolute;
-    bottom: -10px;
+    bottom: -4px;
 }
 @media only screen and (min-width: 1440px) {
     .landscape-section{
@@ -196,6 +196,58 @@ font-size: 16px;
     bottom: -6%;
 }
 .landscape-text-wrapper{
+    margin-top: 60px;
+}
+}
+/* Guardians of Balance */
+.balance-section{
+    background-image: url("/img/balance/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.balance-wrapper{
+    backdrop-filter: blur(22px);
+        background: rgba(125, 97, 245, 0.8);
+        border-radius: 22px;
+            padding: 22px;
+            width: 335px;
+            height: 482px;
+}
+.balance-text-wrapper{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.balance-container{
+    position: relative;
+    padding-bottom: 320px;
+}
+.cat{
+    position: absolute;
+    bottom: -4%;
+}
+@media only screen and (min-width: 1440px) {
+    .balance-section{
+    background-image: url("/img/balance/desk.png");
+
+}
+.balance-container{
+    padding-top: 237px;
+    padding-bottom: 237px;
+}
+.balance-wrapper{
+    margin-right: 0;
+    margin-left: auto;
+    width: 701px;
+        height: 337px;
+}
+.cat{
+    left: 2%;
+    bottom: 0;
+}
+.balance-text-wrapper{
     margin-top: 60px;
 }
 }
