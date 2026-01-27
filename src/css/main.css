@@ -147,3 +147,55 @@ font-size: 16px;
         line-height: 1.66667;
   }
 }
+/* A landscape of Still Motion */
+.landscape-section{
+    background-image: url("/img/landscape/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+}
+.landscape-wrapper{
+    backdrop-filter: blur(22px);
+        background: rgba(125, 97, 245, 0.8);
+        border-radius: 22px;
+            padding: 22px;
+            width: 335px;
+            height: 456px;
+}
+.landscape-text-wrapper{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.landscape-container{
+    position: relative;
+    padding-bottom: 280px;
+}
+.snake{
+    position: absolute;
+    bottom: -10px;
+}
+@media only screen and (min-width: 1440px) {
+    .landscape-section{
+    background-image: url("/img/landscape/desk.png");
+
+}
+.landscape-container{
+    padding-top: 258px;
+    padding-bottom: 260px;
+}
+.landscape-wrapper{
+    padding: 22px;
+        width: 990px;
+        height: 285px;
+}
+.snake{
+    right: -4%;
+    bottom: -6%;
+}
+.landscape-text-wrapper{
+    margin-top: 60px;
+}
+}
