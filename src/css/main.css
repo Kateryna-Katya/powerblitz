@@ -300,5 +300,71 @@ font-size: 16px;
         height: 120px;
        
  }
+}
+/* Symbol Dissolution */
+.symbol-section{
+    background-image: url("/img/symbol/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.symbol-wrapper{
+    backdrop-filter: blur(22px);
+        background: rgba(125, 97, 245, 0.8);
+        border-radius: 22px;
+            padding: 22px;
+            width: 335px;
 
+}
+.symbol-title{
+    text-align: center;
+}
+.symbol-text{
+    text-align: center;
+    margin-top: 40px;
+}
+.symbol-list{
+    margin-top: 22px;
+    display: flex;
+    gap: 22px;
+    flex-direction: column;
+}
+.symbol-item{
+    backdrop-filter: blur(22px);
+        background: rgba(125, 97, 245, 0.8);
+        border-radius: 22px;
+            padding: 22px;
+            width: 335px;
+}
+.symbol-list-wrapper{
+    display: flex;
+    align-items: center;
+}
+.symbol-subtitle{
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+  .symbol-section{
+    background-image: url("/img/symbol/desk.png");
+  }
+  .symbol-wrapper{
+    width: 1240px;
+  }
+  .symbol-list{
+    flex-direction: row;
+  }
+  .symbol-item{
+    width: 609px;
+        height: 340px;
+
+  }
+  .symbol-list-wrapper{
+    gap: 10px;
+  }
+  .symbol-subtitle{
+    font-size: 32px;
+  }
+  .symbol-text-item{
+    margin-top: 22px;
+  }
 }
