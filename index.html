@@ -2,55 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/powerblitz/favicon.svg" />
+    <link rel="icon" type="image/png" href="/powerblitz/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Valley of Dreams</title>
     <script type="module" crossorigin src="/powerblitz/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/powerblitz/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" crossorigin href="/powerblitz/assets/styles-B6fl_ajQ.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <h1 class="visually-hidden">Valley of Dreams</h1>
+        <div class="home-wrapper">
+        <img class="home-logo" src="/powerblitz/assets/logo-BAFCeUGM.png" alt="Valley of Dreams" loading="lazy">
+    <h2 class="home-subtitle">Luck here? <br/>
+    It's got its own schedule.</h2>
+    <p class="home-big-text">Welcome to Valley of Dreams. Things unfold at their own pace here - it's all about finding your flow and staying
+    centered.</p>
+    <p class="home-text">At the height of sakura bloom, a hidden valley reveals itself.<br/>Seven spirits hang out here - they're more like gentle
+    guides than bossy overseers.</p>
+    <a class="hero-button" href="#demo">
+        <img class="hero-btn pulse" src="/powerblitz/assets/btn-CUSdOvA8.png" alt="Enter the Valley" loading="lazy" />
+    </a>
+</div>
+    <picture>
+        <source srcset="/powerblitz/assets/fish-desk-CLrJs1nD.png 1x, /powerblitz/assets/fish-desk@2x-BFLZICFv.png 2x" media="(min-width: 1439px)" />
+        <source srcset="/powerblitz/assets/fish-mob-D5FoBbhA.png 1x, /powerblitz/assets/fish-mob@2x-C_mwXAsA.png 2x" media="(max-width: 1438px)" />
+        <img class="hero-fish" src="/powerblitz/assets/fish-mob-D5FoBbhA.png" alt="Valley of Dreams" loading="lazy" />
+    </picture>
+    
+</div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
