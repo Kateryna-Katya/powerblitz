@@ -118,3 +118,32 @@ font-size: 16px;
     right: 0;
 }
 }
+/* Disclaimer */
+.disclaimer-section{
+    background: linear-gradient(0deg, #480088 0%, #8600ff 100%);
+}
+.disclaimer-title{
+    font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 28px;
+        text-transform: uppercase;
+        color: #fff;
+}
+.disclaimer-text{
+    margin-top: 22px;
+    font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 1.4;
+        text-transform: uppercase;
+        color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+  .disclaimer-title{
+    font-size: 42px;
+  }
+  .disclaimer-text{
+    font-size: 24px;
+        line-height: 1.66667;
+  }
+}
