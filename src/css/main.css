@@ -37,7 +37,7 @@
 .hero-btn.pulse {
     animation: pulse-animation 2s infinite;
     transition: transform 0.3s ease;
-    display: block;
+    display: flex;
 width: 238px;
     height: 79px;
     margin-left: auto;
