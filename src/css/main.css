@@ -93,6 +93,9 @@ font-size: 16px;
         margin-left: auto;
         margin-right: auto;
 }
+.flower{
+    display: none;
+}
 @media only screen and (min-width: 1440px) {
    .home-section{
     background-image: url("/img/hero/desk.png");
@@ -104,6 +107,7 @@ font-size: 16px;
         height: 603px;
         padding: 22px;
         margin-top: 0;
+     
 }
 .home-subtitle{
     font-size: 32px;
@@ -114,8 +118,16 @@ font-size: 16px;
 .home-text{
     font-size: 20px;
 }
+
 .hero-fish{
+    left: 0;
+}
+.flower{
+    position: absolute;
     right: 0;
+    display: block;
+        bottom: 0;
+            z-index: 1;
 }
 }
 /* Disclaimer */
